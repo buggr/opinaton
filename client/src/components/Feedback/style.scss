@@ -1,0 +1,66 @@
+.feedback-container {
+    width: 91vw;
+    height: 83vh;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+
+    .presentation-name {
+        font-size: 17px;
+        padding: 10px;
+        margin: 20px auto;
+        text-align: center;
+
+        strong {
+            font-size: 20px;
+            color: #ff1060;
+            border-bottom: 2px solid #ff1060;
+        }
+    }
+
+    .presentation-opnion {
+        margin: 20px auto 10px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    textarea {
+        width: 80vw;
+        height: 200px;
+        margin: 20px auto;
+        padding: 10px;
+        border-color: rgba(0, 0, 0, 0.15);
+    }
+
+    button {
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 20px;
+        border-width: 0;
+        height: 40px;
+        font-weight: bold;
+        color: white;
+        background: #ff1060;
+        box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.1);
+    }
+
+    .feedback-loading {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            margin: auto auto 20px;
+        }
+
+        .ant-spin-dot-item {
+            background-color: #ff1060 !important; 
+        }
+    }
+}
+
+.ant-btn:hover, .ant-btn:focus {
+    color: #FFF !important;
+    background:#ff1060 !important; 
+}

@@ -1,0 +1,10 @@
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background: #ff1060;
+    display: flex;
+
+    .ant-spin-dot-item {
+        background-color: #FFF !important; 
+    }
+}

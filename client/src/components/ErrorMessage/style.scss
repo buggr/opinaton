@@ -1,0 +1,10 @@
+.error-container {
+    display: flex;
+    height: 100%;
+
+    .error-content {
+        margin: auto;
+        text-align: center;
+        color: #666;
+    }
+}

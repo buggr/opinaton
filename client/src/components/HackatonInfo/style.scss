@@ -1,0 +1,120 @@
+.hackaton-info-container {
+    width: 91vw;
+    height: auto;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+
+    button {
+        border-width: 0;
+        margin-bottom: 24px;
+        padding: 10px 0;
+        background-color: #ff1060;
+        color: #FFF;
+        font-weight: bold;
+    }
+
+    .ant-spin-dot-item {
+        background-color: #ff1060 !important; 
+    }
+
+    .hackaton-info-header {
+        display: flex;
+        height: 60px;
+        width: 100%;
+        box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+        flex-direction: column;
+
+        h1 {
+            font-weight: bold;
+            font-size: 24px;
+            color: #FFF;
+            margin: auto;
+        }
+    }
+}
+
+.about-card-container {
+    padding: 10px 15px;
+    height: auto;
+    background-color: #FFF;
+    margin-bottom: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+
+    .card-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        margin-top: 5px;
+        
+        .header-title {
+            color: #666;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 18px;
+            margin-bottom: 0;
+        }
+    }
+
+    p {
+        line-height: 23px;
+        text-align: justify;
+        margin-bottom: 0;
+    }
+}
+
+.feedback-card-container {
+    margin: auto;
+    width: 95vw;
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.08);
+    margin-bottom: 15px;
+    padding: 8px 10px;
+    display: flex;
+    text-align: justify;
+
+    p {
+        margin: auto auto;
+        width: 75%;
+    }
+
+    .feedback-side {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 25%;
+        margin: auto;
+    }
+
+    .ant-rate {
+        font-size: 15px !important;
+        width: 50px !important;
+        margin: auto auto auto 10px !important;
+    }
+}
+
+.ant-modal-wrap {
+    top: -8px !important;
+    bottom: auto !important;
+}
+.ant-btn-primary {
+    background-color: #ff1060 !important; 
+    border-color: #ff1060 !important; 
+}
+.ant-modal {
+    top: 0 !important;
+    
+    @media (max-width: 767px){
+        max-width: 100vw !important;
+    }
+}
+.ant-modal-content {
+    height: 100vh !important;
+    border-radius: 0 !important;
+}
+.ant-modal-body {
+    padding: 24px 0 12px !important;
+    overflow-y: scroll;
+    height: 83vh !important;
+}

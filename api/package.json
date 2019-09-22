@@ -1,0 +1,31 @@
+{
+  "name": "opinaton-api",
+  "version": "0.2.4",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "nyc --reporter=html mocha --timeout 10000 --exit src/tests/*.js",
+    "test:prod": "cross-env NODE_ENV=prod npm t",
+    "start:prod": "cross-env NODE_ENV=prod node server.js"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cross-env": "^6.0.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-boom": "^3.0.0",
+    "mongoose": "^5.7.1",
+    "mongoose-find-and-filter": "^1.0.0",
+    "saslprep": "^1.0.3",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "chai-things": "^0.2.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.2",
+    "nyc": "^14.1.1"
+  }
+}

@@ -1,0 +1,20 @@
+.dashboard-container {
+    height: 100vh;
+
+    .user-container {
+        display: flex;
+        flex-direction: column;
+
+        .user-avatar {
+            margin: 30px auto 10px;
+        }
+        .user-name {
+            color: #666;
+            font-size: 13px;
+            margin: 0 auto 20px;
+            padding: 0 20px;
+            text-align: center;
+        }
+    }
+}
+

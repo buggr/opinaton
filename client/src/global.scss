@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fafafa;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+html.touch *:hover {
+  all: unset !important;
+  pointer-events: none !important;
+}
+
+button {
+  outline: none;
+}
+
+.ant-layout-sider {
+  box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.05);
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background: rgba(240, 0, 80, 0.1) !important;
+}
+
+.ant-menu-item-selected > a,
+.ant-menu-item-selected > a:hover {
+  color: #f00050 !important;
+}
+
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+  border-right: 3px solid #f00050 !important;
+}
+
+.ant-layout-sider-zero-width-trigger .ant-layout-sider-zero-width-trigger-left,
+.ant-layout-sider-zero-width-trigger {
+  top: 11px !important;
+  font-size: 22px !important;
+  padding-left: 60px !important;
+  width: 95px !important;
+  background: #FFF !important;
+
+  i svg {
+    fill: #f00050;
+  }
+}
+
+.ant-menu-horizontal > .ant-menu-item:hover,
+.ant-menu-horizontal > .ant-menu-submenu:hover,
+.ant-menu-horizontal > .ant-menu-item-active,
+.ant-menu-horizontal > .ant-menu-submenu-active,
+.ant-menu-horizontal > .ant-menu-item-open,
+.ant-menu-horizontal > .ant-menu-submenu-open,
+.ant-menu-horizontal > .ant-menu-item-selected,
+.ant-menu-horizontal > .ant-menu-submenu-selected {
+  color: #f00050 !important;
+  border-bottom: 2px solid #f00050 !important;
+}

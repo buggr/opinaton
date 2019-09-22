@@ -1,0 +1,23 @@
+.presentation-container {
+    width: 91vw;
+
+    .team-card {
+        width: 100%;
+        height: auto;
+        background-color: #FFF;
+        margin-bottom: 10px;
+        display: flex;
+
+        h1 {
+            margin: auto auto auto 15px;
+            padding: 8px 0;
+            color: #555;
+        }
+
+        .status {
+            display: flex;
+            width: 40px;
+            height: 40px;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.hackatons-container {
+    height: calc(100vh - 90px);
+    //background: #FFF;
+}
+
+.card-container {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+
+    .card-title {
+        font-weight: bold;
+        color: #FFF;
+        margin-bottom: 15px;
+    }
+    .card-bottom-container {
+        display: flex;
+        flex-wrap: wrap;
+        
+        .card-bottom-date {
+            margin-right: auto;
+            font-size: 13px;
+            color: #FFF;
+        }
+        .card-bottom-ended {
+            font-size: 13px;
+            color: #FFF;
+        }
+    }
+}
