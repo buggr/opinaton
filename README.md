@@ -13,9 +13,6 @@ The logic of the app revolves around the following process:
 - The hackathon's organizer opens the app and chooses which team is going to present the pitch.
 - The team that is presenting the pitch receives real-time feedback from other hackathon's participants and this feedback can be later reviewed.
 
-You can see a **Demo** of this app on:
-[Opinaton App](https://op1naton.web.app)
-
 ## Dependencies
 We recommend you use the `npm` in order to run this app locally. You must use the following commands on the `client` and the `api` separately.
 ```sh
@@ -29,7 +26,7 @@ Our thought was that during hackathons presentations you would be probabily clos
 
 The initial idea was to use the Shawee's API to provide data but since we could not, we created our own simplified API.
 
-To test the online demo, we recommend you to log into the app with the following credentials:
+To test the [**Online Demo**](https://op1naton.web.app), we recommend you to log into the app with the following credentials:
 ```sh
 user@gmail.com #email
 12345 #password
