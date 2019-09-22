@@ -25,7 +25,12 @@ npm start
 
 ## Important Notes
 This app is a PWA because it was made focused on the usability and the agility our world desires nowadays.
-
-We thought that during hackathons presentations you would be probabily closer to a smartphone with internet connection than a computer.
+Our thought was that during hackathons presentations you would be probabily closer to a smartphone with internet connection than a computer.
 
 The initial idea was to use the Shawee's API to provide data but since we could not, we created our own simplified API.
+
+To test the online demo, we recommend you to log into the app with the following credentials:
+```sh
+user@gmail.com #email
+12345 #password
+```
