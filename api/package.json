@@ -18,7 +18,7 @@
     "mongoose": "^5.7.5",
     "mongoose-find-and-filter": "^1.0.0",
     "saslprep": "^1.0.3",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.4.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
